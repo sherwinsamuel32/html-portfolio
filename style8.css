@@ -1,0 +1,27 @@
+.a{
+    height: 300px;
+    width:360px;
+    background-color: aqua;
+    animation: abc 3s infinite;
+}
+.a:hover{
+   background-color: black;
+}
+@keyframes abc{
+    25%{background-color: red;}
+    50%{background-color: blue;}
+    75%{background-color: green;}
+    100%{background-color: yellow;}
+    50%{transform: rotateX(180deg);}
+    100%{transform: rotateZ(180deg);}
+    /* 100%{transform: rotateZ(360deg);} */
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+img:hover{
+    height 400px;
+    width: 400px;
+    transition: 3s ease-in-out;
+}

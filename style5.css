@@ -1,0 +1,51 @@
+.a:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    filter: grayscale(1);
+    filter: saturate(10%)
+    /* filtet: */
+}
+.b:hover{
+    filter: blur(3px);
+    border-radius: 50%;
+}
+.c:hover{
+    filter: opacity(0.1);
+    border-radius: 50%;
+}
+.d:hover{
+    filter: brightness(1);
+    filter: hue-rotate(80deg);
+    border-radius: 50%;
+}
+.e:hover{
+    filter: invert(80%);
+    border-radius: 50%;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+#aa{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    overflow: hidden;
+} 
+#aa:hover{
+    overflow: scroll;
+}
+h1{
+    background-color: red;
+    text-transform: uppercase;
+    color: blue;
+}
+h1:hover{
+    background-color: aqua;
+    text-shadow: 10px 10px 2px green;
+    text-transform: none;
+}
+
+
+

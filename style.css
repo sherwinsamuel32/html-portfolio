@@ -1,0 +1,14 @@
+div{
+    height: 400px;
+    width: 400px;
+    /* background-color: aqua; */
+    /* background-image: linear-gradient(to top, orange, red, purple, black, yellow); */
+    /* background-image: radial-gradient(orange, red, purple, black, yellow); */
+    background-image: conic-gradient(orange, red, purple, black, yellow);
+    
+}
+body{
+    background-image: url(abc.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

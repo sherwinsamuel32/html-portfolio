@@ -1,0 +1,27 @@
+/* h1{
+    margin: 300px;
+    border: 10px solid black;
+    padding: 200px;
+    background-color: aqua;
+    
+} */
+h1{
+    margin: 300px;
+    border-left: 20px solid red;
+    border-right: 30px solid green;
+    border-top: 40px solid yellow;
+    border-bottom: 40px solid blue;
+    border-bottom-style: dashed;
+    border-top-style: dotted;
+    border-left-style: double;
+    border-right-style: groove ;
+    padding: 200px;
+    border-radius: 4%;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border: 1px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}

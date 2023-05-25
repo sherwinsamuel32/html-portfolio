@@ -1,0 +1,12 @@
+ul{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+.t{
+    margin-left: 400px;
+}

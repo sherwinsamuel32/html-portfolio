@@ -1,0 +1,25 @@
+/* h1
+{
+  margin: 300px;;
+  padding: 100px;
+  background-color: aqua;
+  border: 10px solid red;
+  /* transform: rotate(222deg) */
+  /* transform: rotatex(222deg) */
+  /* transform: skew(25deg); */
+  /* transform: rotate3d(10ppx 10px 2px); */
+  /* transform: rotatex(50deg);
+  transform: rotate(50deg);
+  transform: rotatez(50deg); */
+  /* transform: scale(); */
+/* } */ 
+
+img{
+    height: 300px;
+    width: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+    border-top: 300px solid orange;
+    border-bottom: 300px solid green;
+    
+}
